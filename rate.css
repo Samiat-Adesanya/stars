@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.wrapper {
+    margin: 100px auto;
+    width: 35%;
+    display: flex;
+    box-shadow: 5px 5px 8px 5px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    margin: 100px 0;
+}
+
+section h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper img {
+    width: 50px;
+    margin: 25px auto;
+}
+
+section p {
+    text-align: center;
+    margin: 30px 0;
+
+}
+
+@media (max-width: 1045px) {
+    .wrapper {
+        margin: 100px auto;
+        width: 70%;
+    }
+
+    .wrapper img {
+        width: 50px;
+        margin: 0 auto;
+        padding: 10px;
+
+    }
+}
